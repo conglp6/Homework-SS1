@@ -1,0 +1,3 @@
+Cả hai giao diện là tập hợp các nút DOM. Chúng khác nhau trong các phương thức chúng cung cấp và trong các loại nút mà chúng có thể chứa. Trong khi NodeList có thể chứa bất kỳ loại nút nào, một nút HTMLCollection được cho là chỉ chứa các nút Element. 
+HTMLCollection cung cấp các phương thức tương tự như một NodeList và thêm vào đó là một phương thức được gọi namedItem.
+Các HTMLCollecton luôn được sử dụng khi quyền truy cập phải được cung cấp cho nhiều nút, ví dụ: hầu hết các phương thức chọn (như getElementsByTagName) trả về nhiều nút hoặc nhận được tham chiếu đến tất cả các con (element.childNodes).
